@@ -5,8 +5,7 @@ This experience includes or adapts MIT-licensed work from:
 - Infinite Layers Grid — Copyright (c) 2025 Jorge Toloza
 - HTML Light Demo — Copyright (c) 2026 Gooooo
 - City Tour — Copyright (c) 2012-23 Joel Strait
-- fireworks-js — Copyright (c) 2021-2023 Vitalij Ryndin
-- WebGL Text Particles — Copyright (c) 2018 Arka Roy
+- raining — Copyright (c) 2019 Ion Drimba F.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
