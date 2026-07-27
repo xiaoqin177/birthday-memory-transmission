@@ -2,8 +2,8 @@
 <html lang="zh-CN"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#050505">
 <meta name="description" content="一座为你临时开放的私人记忆观测站。"><meta property="og:title" content="NOTHING HERE WAS ACCIDENTAL"><meta property="og:description" content="一次只为你开放的记忆传输。"><meta property="og:image" content="./assets/fireworks-BS7UyfrE.jpg"><link rel="icon" href="data:,">
-<title>Private Memory Transmission</title>  <script type="module" crossorigin src="./assets/index-tAUKStCM.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-BeuioyKz.css">
+<title>Private Memory Transmission</title>  <script type="module" crossorigin src="./assets/index-Bq1zHdsN.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BtDBWzc4.css">
 </head><body>
 <canvas id="atmosphere" aria-hidden="true"></canvas><div class="noise" aria-hidden="true"></div><div class="cursor" aria-hidden="true"><span></span></div>
   <nav class="instrument-nav" aria-label="体验导航"><button class="brand" data-go="portal" type="button">PMT—26</button><div class="nav-readout"><span id="phaseIndex">00</span><span id="phaseLabel">CALIBRATION</span></div><a class="nav-next" id="navNext" href="?phase=finale">NEXT SIGNAL ↗</a><button class="soundless" id="soundToggle" type="button" aria-label="关闭终幕声音" aria-pressed="false"><i></i><span>SOUND ON</span></button></nav>
@@ -22,8 +22,9 @@
 </section>
 <section class="phase phase-finale" id="finale" data-phase="FINAL ORBIT">
   <canvas id="stormCanvas" aria-hidden="true"></canvas>
-  <div class="final-orbit" id="finalOrbit" aria-hidden="true"><figure style="--i:0"><img src="./assets/first-light-Cv2_6zMF.jpg" alt=""></figure><figure style="--i:1"><img src="./assets/coast-uLd8JpGS.jpg" alt=""></figure><figure style="--i:2"><img src="./assets/meadow-pLzhwoA2.jpg" alt=""></figure><figure style="--i:3"><img src="./assets/dusk-DQK89EgV.jpg" alt=""></figure><figure style="--i:4"><img src="./assets/close-qELVdVBf.jpg" alt=""></figure><figure style="--i:5"><img src="./assets/winter-BUC-3aR8.jpg" alt=""></figure><figure style="--i:6"><img src="./assets/fireworks-BS7UyfrE.jpg" alt=""></figure><figure style="--i:7"><img src="./assets/epilogue-DWoMPp7e.jpg" alt=""></figure></div><div class="final-glow" aria-hidden="true"></div>
-  <div class="final-copy"><p class="micro">VRC SUGAR RELATION / SIGNAL 07.29</p><h2>SOME SIGNALS<br><span>BREAK.</span><br>COME BACK.</h2><p class="final-wish">分分合合也好，咕咕嘎嘎也好，坐标总会在某个晚上重新亮起。七凉，今天不谈别的——看完这场雨。</p><button class="hold-button" id="holdButton" type="button" aria-label="长按引发闪电"><span class="hold-meter"></span><strong>按住引雷</strong></button></div>
+  <div id="fireworksLayer" aria-hidden="true"></div>
+  <div class="final-platform" id="finalOrbit" aria-hidden="true"><div class="platform-beam"></div><figure class="platform-memory memory-a"><img src="./assets/first-light-Cv2_6zMF.jpg" alt=""></figure><figure class="platform-memory memory-b"><img src="./assets/dusk-DQK89EgV.jpg" alt=""></figure><figure class="platform-memory memory-c"><img src="./assets/close-qELVdVBf.jpg" alt=""></figure><div class="platform-sign"><span>LAST STOP</span><strong>七凉 / 07.29</strong></div><div class="platform-edge"></div></div>
+  <div class="final-copy"><p class="micro">LAST STOP / WEATHER WARNING</p><h2>信号不稳定。<br><span>城市照常下雨。</span></h2><p class="final-wish">分分合合也好，咕咕嘎嘎也好。今天不谈别的——按住，让这座城把话说完。</p><button class="hold-button" id="holdButton" type="button" aria-label="长按引发闪电"><span class="hold-meter"></span><strong>按住引雷</strong></button></div>
   <div class="storm-message" id="stormMessage" role="status" aria-live="polite" aria-hidden="true"><p>七凉，生日快乐喵</p><span>咕咕嘎嘎 · 2005.07.29</span></div><button class="replay-button" id="replayButton" type="button">REPLAY TRANSMISSION ↗</button>
 </section></main>
 <div class="transition-mask" aria-hidden="true"><svg viewBox="0 0 100 100" preserveAspectRatio="none"><path id="transitionPath" d="M 50 50 m -0.1 0 a 0.1 0.1 0 1 0 0.2 0 a 0.1 0.1 0 1 0 -0.2 0"></path></svg></div>
