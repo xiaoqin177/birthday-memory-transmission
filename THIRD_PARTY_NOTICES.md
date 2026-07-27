@@ -7,10 +7,18 @@ This experience includes or adapts MIT-licensed work from:
 - City Tour — Copyright (c) 2012-23 Joel Strait
 - raining — Copyright (c) 2019 Ion Drimba F.
 
+Sound effects from Mixkit, used under the Mixkit Sound Effects Free License:
+
+- Rain on umbrella — SFX 1263
+- Urban city ambience at night — SFX 2678
+- Nature ambience with lightning strike and thunder — SFX 3093
+- Firework whoosh explosion — SFX 2990
+- Baby toy music box lullaby — SFX 700
+
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-The `three-html-render` package is MIT-licensed. GSAP is used under the GreenSock standard license.
+The `three-html-render` package is MIT-licensed. GSAP is used under the GreenSock standard license. Mixkit audio is used under the Mixkit Sound Effects Free License.
