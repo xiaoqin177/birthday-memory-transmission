@@ -2,18 +2,21 @@
 <html lang="zh-CN"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#050505">
 <meta name="description" content="一份要亲手拆开的生日礼物。"><meta property="og:title" content="A GIFT FOR 七凉"><meta property="og:description" content="咕咕嘎嘎，七凉生日快乐喵。"><meta property="og:image" content="./assets/fireworks-BS7UyfrE.jpg"><link rel="icon" href="data:,">
-<title>Private Memory Transmission</title>  <script type="module" crossorigin src="./assets/index-BH6RUUZ_.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-CPfFCojG.css">
+<title>Private Memory Transmission</title>  <script type="module" crossorigin src="./assets/index-D-lgxqKz.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-ZVR4qw8n.css">
 </head><body>
 <canvas id="atmosphere" aria-hidden="true"></canvas><div class="noise" aria-hidden="true"></div><div class="cursor" aria-hidden="true"><span></span></div>
-  <nav class="instrument-nav" aria-label="体验导航"><button class="brand" data-go="portal" type="button">PMT—26</button><div class="nav-readout"><span id="phaseIndex">00</span><span id="phaseLabel">CALIBRATION</span></div><a class="nav-next" id="navNext" href="?phase=finale">NEXT SIGNAL ↗</a><button class="soundless music-box-control" id="soundToggle" type="button" aria-label="关闭音乐盒与环境声" aria-pressed="false"><i class="music-box-mark"><b></b></i><span>MUSIC BOX</span></button></nav>
+<nav class="instrument-nav" aria-label="体验导航"><button class="brand" data-go="portal" type="button">PMT—26</button><div class="nav-readout"><span id="phaseIndex">00</span><span id="phaseLabel">GIFT</span></div><a class="nav-next" id="navNext" href="?phase=finale">NEXT SIGNAL ↗</a><button class="soundless music-box-control" id="soundToggle" type="button" aria-label="关闭音乐盒与环境声" aria-pressed="false"><i class="music-box-mark"><b></b></i><span>MUSIC BOX</span></button></nav>
 <main id="experience">
-<section class="phase phase-portal is-active" id="portal" data-phase="CALIBRATION">
-  <div class="gift-studio" aria-hidden="true"></div><canvas id="giftCanvas" aria-label="可拖动丝带打开的三维生日礼盒"></canvas>
-  <div class="gift-copy"><p class="micro">A PRIVATE GIFT FOR <span data-recipient>YOU</span></p><h1>先别急着<br>说生日快乐。</h1><p>把丝带慢慢拉开。<br>里面没有标准答案。</p></div>
-  <div class="gift-interaction"><button class="gift-ribbon-handle" id="giftRibbon" type="button" aria-label="向右拖动丝带打开礼盒" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span>拖动丝带</span><i aria-hidden="true">→</i></button><p id="giftHint">鼠标拖动 · 触屏轻扫 · 键盘方向键</p></div>
-  <button class="kinetic-button gift-fallback" id="enterExperience" type="button"><span>打开礼物</span><i aria-hidden="true">↗</i></button>
-  <div class="portal-meta portal-meta-left"><span>HAND WRAPPED / 07.29</span><span>FOR 七凉</span></div><div class="portal-meta portal-meta-right"><span>VRC SUGAR RELATION</span><span>NO PERFECT ENDING REQUIRED</span></div>
+<section class="phase phase-gift is-active" id="gift" data-phase="GIFT">
+  <div class="gift-studio" aria-hidden="true"></div><canvas id="giftCanvas" aria-label="可拖动丝带打开的生日礼盒"></canvas><div class="gift-photo-stage" aria-hidden="true"><img class="gift-photo gift-photo-closed" id="giftPhotoClosed" src="./assets/gift-box-photo-v2.png" alt=""><img class="gift-photo gift-photo-open" id="giftPhotoOpen" src="./assets/gift-box-photo-open-v2.png" alt=""></div>
+  <div class="gift-interaction"><button class="gift-ribbon-handle" id="giftRibbon" type="button" aria-label="向右拖动丝带打开礼盒" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></button></div>
+  <button class="kinetic-button gift-fallback" id="enterExperience" type="button" aria-label="打开礼物"></button>
+</section>
+<section class="phase phase-portal" id="portal" data-phase="CALIBRATION">
+  <div class="portal-grid" aria-hidden="true"></div><div class="telescope" aria-hidden="true"><div class="scope-layer scope-outer"></div><div class="scope-layer scope-01"></div><div class="scope-layer scope-02"></div><div class="scope-layer scope-03"></div><div class="scope-reticle"><i></i><i></i><i></i><i></i></div></div>
+  <div class="portal-meta portal-meta-left"><span>PRIVATE TRANSMISSION</span><span>LAT 31.2304 / LON 121.4737</span></div><div class="portal-meta portal-meta-right"><span>VISUAL MEMORY ARCHIVE</span><span>9 SIGNALS DETECTED</span></div>
+  <div class="portal-copy"><p class="micro">THE OBSERVATORY IS OPEN FOR <span data-recipient>YOU</span></p><h1>NOTHING HERE<br>WAS <span class="inline-image" aria-hidden="true"></span> ACCIDENTAL.</h1><div class="portal-bottom"><p>这些画面没有消失。<br>它们只是一直在等你重新靠近。</p><button class="kinetic-button" id="enterPortal" type="button"><span>开始校准</span><i aria-hidden="true">↗</i></button></div></div><div class="scanline" aria-hidden="true"></div>
 </section>
 <section class="phase phase-grid" id="memory" data-phase="MEMORY FIELD">
   <div id="memoryGrid" class="memory-grid" aria-label="可拖拽的无限记忆网格"></div><div class="grid-wash" aria-hidden="true"></div><div class="grid-title"><p class="micro">DRAG / SCROLL TO NAVIGATE</p><h2>WE KEPT<br><span>GOING.</span></h2></div><div class="grid-instruction"><span class="drag-glyph" aria-hidden="true">↔</span><p>拖动这片记忆。<br>速度越快，时间越不稳定。</p></div><button class="kinetic-button grid-next" id="openLightRoom" type="button"><span>进入隐藏光室</span><i aria-hidden="true">↗</i></button><div class="marquee" aria-hidden="true"><div>WE WERE HERE — WE WERE HERE — WE WERE HERE — WE WERE HERE —&nbsp;</div></div>
@@ -26,7 +29,7 @@
   <div class="rain-street-backdrop" id="rainStreetBackdrop" aria-hidden="true"></div>
   <canvas id="stormCanvas" aria-label="日式雨夜街道动画"></canvas>
   <div class="umbrella-pov" id="umbrellaPov" aria-hidden="true"></div>
-  <div class="storm-flash" id="stormFlash" aria-hidden="true"></div>
+  <div class="storm-flash" id="stormFlash" aria-hidden="true"></div><div class="storm-sky-flash" id="stormSkyFlash" aria-hidden="true"></div>
   <p class="rain-walk-label" aria-hidden="true">07.29 / 雨还在下</p>
   <div class="final-platform" id="finalOrbit" aria-hidden="true"><div class="platform-beam"></div><figure class="platform-memory memory-a"><img src="./assets/first-light-Cv2_6zMF.jpg" alt=""></figure><figure class="platform-memory memory-b"><img src="./assets/dusk-DQK89EgV.jpg" alt=""></figure><figure class="platform-memory memory-c"><img src="./assets/close-qELVdVBf.jpg" alt=""></figure><div class="platform-sign"><span>LAST STOP</span><strong>七凉 / 07.29</strong></div><div class="platform-edge"></div></div>
   <div class="final-copy"><p class="micro">LAST STOP / WEATHER WARNING</p><h2>信号不稳定。<br><span>城市照常下雨。</span></h2><p class="final-wish">分分合合也好，咕咕嘎嘎也好。今天不谈别的——按住，让这座城把话说完。</p><button class="hold-button" id="holdButton" type="button" aria-label="长按引发闪电"><span class="hold-meter"></span><strong>按住引雷</strong></button></div>
