@@ -7,13 +7,18 @@ This experience includes or adapts MIT-licensed work from:
 - City Tour — Copyright (c) 2012-23 Joel Strait
 - raining — Copyright (c) 2019 Ion Drimba F.
 
-Sound effects from Mixkit, used under the Mixkit Sound Effects Free License:
+Sound effects retained from Mixkit, used under the Mixkit Sound Effects Free License:
 
-- Rain on umbrella — SFX 1263
 - Urban city ambience at night — SFX 2678
-- Nature ambience with lightning strike and thunder — SFX 3093
-- Firework whoosh explosion — SFX 2990
 - Baby toy music box lullaby — SFX 700
+
+Private non-commercial audio derivatives from media supplied directly by the site owner:
+
+- `rain-real-loop-v1.mp3` from `雨声.mp4` (14:00–15:00 stable window)
+- `thunder-real-v1.mp3` from `雷声.mp4` (starting 01:04.55)
+- `firework-real-v1.mp3` from `烟花.mp4` (starting 03:47.00; burst peak near +1.9 seconds)
+
+The source MP4 files were not modified or copied into the project. `umbrella-pov-real-v1.png` is an original AI-generated project asset, locally chroma-keyed to transparency.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
