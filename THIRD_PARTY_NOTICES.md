@@ -22,6 +22,8 @@ The source MP4 files were not modified or copied into the project. `umbrella-pov
 
 `gift-box-photo-v2.png` and `gift-box-photo-open-v2.png` are original AI-generated matched closed/open project assets, locally chroma-keyed to transparency.
 
+`storm-cloud-bank-v1.png` is an original AI-generated cloud-only texture for the Three.js rain alley. `storm-alley-backplate-v1.png` is an original AI-generated lightning-free distant-alley backplate used behind real 3D foreground geometry. `secret-heart-v1.png` is an original AI-generated lacquer-heart entry mark, locally chroma-keyed to transparency.
+
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
