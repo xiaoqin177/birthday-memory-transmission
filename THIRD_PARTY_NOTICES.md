@@ -12,6 +12,8 @@ Sound effects retained from Mixkit, used under the Mixkit Sound Effects Free Lic
 - Urban city ambience at night — SFX 2678
 - Baby toy music box lullaby — SFX 700
 
+The city ambience remains in the project for provenance but is not loaded by the current experience. The music-box track fades out before the rain finale, which uses only the owner-supplied rain, thunder, and firework derivatives listed below.
+
 Private non-commercial audio derivatives from media supplied directly by the site owner:
 
 - `rain-real-loop-v1.mp3` from `雨声.mp4` (14:00–15:00 stable window)
